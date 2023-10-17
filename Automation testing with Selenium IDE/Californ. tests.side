@@ -1,0 +1,277 @@
+{
+  "id": "34eab8e9-1bec-4837-ba66-6f4af4adaa2d",
+  "version": "2.0",
+  "name": "Cal new",
+  "url": "https://qasvus.wixsite.com",
+  "tests": [{
+    "id": "89ab995a-9e19-4eea-8bc4-beb430d1bc58",
+    "name": "Main page and log in ",
+    "commands": [{
+      "id": "0b8b4995-3044-452d-bbbc-23410ac37a90",
+      "comment": "",
+      "command": "open",
+      "target": "/ca-marketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad23af11-a8db-4959-9256-2bd16e733f0a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8009d963-fa23-4bf8-bacf-d374e5e411cb",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Home | California Marcketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c61275de-81ff-451d-80e5-5f171a4b33ae",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.font_7 > .color_15",
+      "targets": [
+        ["css=.font_7 > .color_15", "css:finder"],
+        ["xpath=//div[@id='comp-k00d6wwm3']/p/span", "xpath:idRelative"],
+        ["xpath=//div[2]/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'A No-Limits Marketing Agency')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5351e99-6189-4452-8d83-16c8d56ae38a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#img_2_comp-ldaaabc9 > img",
+      "targets": [
+        ["css=#img_2_comp-ldaaabc9 > img", "css:finder"],
+        ["xpath=//img[@alt='VK Share']", "xpath:img"],
+        ["xpath=//wow-image[@id='img_2_comp-ldaaabc9']/img", "xpath:idRelative"],
+        ["xpath=//li[3]/a/wow-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b27a2f73-841d-48e6-9a5c-8535cefb8a54",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#img_4_comp-ldaaabc9 > img",
+      "targets": [
+        ["css=#img_4_comp-ldaaabc9 > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.wixstatic.com/media/d3ee8f_a21cd4b9e8c0499fb0a2f235b6b6d9b0~mv2.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d3ee8f_a21cd4b9e8c0499fb0a2f235b6b6d9b0~mv2.png')]", "xpath:img"],
+        ["xpath=//wow-image[@id='img_4_comp-ldaaabc9']/img", "xpath:idRelative"],
+        ["xpath=//li[5]/a/wow-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "068e31fe-2e7b-4b3f-bf11-2529ca63e9ab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=comp-ldaaacya2label",
+      "targets": [
+        ["id=comp-ldaaacya2label", "id"],
+        ["css=#comp-ldaaacya2label", "css:finder"],
+        ["xpath=//p[@id='comp-ldaaacya2label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ldaaacya2']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cf0f653-54e8-4c74-b51b-1051f21aad7f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=comp-ldaaacya3label",
+      "targets": [
+        ["id=comp-ldaaacya3label", "id"],
+        ["css=#comp-ldaaacya3label", "css:finder"],
+        ["xpath=//p[@id='comp-ldaaacya3label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ldaaacya3']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[4]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Servises')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bac42c8-3b8b-47b9-910b-edce753ce61d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=comp-ldaaacya__more__label",
+      "targets": [
+        ["id=comp-ldaaacya__more__label", "id"],
+        ["css=#comp-ldaaacya__more__label", "css:finder"],
+        ["xpath=//p[@id='comp-ldaaacya__more__label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ldaaacya__more__']/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54c111e1-cba2-4018-89be-25c45a2b089d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#img_1_comp-ldaaabc9 > img",
+      "targets": [
+        ["css=#img_1_comp-ldaaabc9 > img", "css:finder"],
+        ["xpath=//img[@alt='Twitter']", "xpath:img"],
+        ["xpath=//wow-image[@id='img_1_comp-ldaaabc9']/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/wow-image/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "0bf90b9e-cbb8-44a2-a87b-f2fd6ec51ece",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#img_0_comp-ldaaabc9 > img",
+      "targets": [
+        ["css=#img_0_comp-ldaaabc9 > img", "css:finder"],
+        ["xpath=//img[@alt='Facebook']", "xpath:img"],
+        ["xpath=//wow-image[@id='img_0_comp-ldaaabc9']/img", "xpath:idRelative"],
+        ["xpath=//wow-image/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "ca2d83ae-2e73-41f0-85a1-adc9323702aa",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=comp-ldaaacya0label",
+      "targets": [
+        ["id=comp-ldaaacya0label", "id"],
+        ["css=#comp-ldaaacya0label", "css:finder"],
+        ["xpath=//p[@id='comp-ldaaacya0label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ldaaacya0']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "f924aa31-ebda-4bde-a15c-1e9fb45031a5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#img_comp-ldaaabct3 > img",
+      "targets": [
+        ["css=#img_comp-ldaaabct3 > img", "css:finder"],
+        ["xpath=//img[@alt='iot_sq.png']", "xpath:img"],
+        ["xpath=//wow-image[@id='img_comp-ldaaabct3']/img", "xpath:idRelative"],
+        ["xpath=//div[7]/a/wow-image/img", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "51644583-320a-48cd-8cc2-016c2bf48fed",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6777d5a9-87ca-47b1-ae3c-78628bd3203f",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ldaaacya1label",
+      "targets": [
+        ["id=comp-ldaaacya1label", "id"],
+        ["css=#comp-ldaaacya1label", "css:finder"],
+        ["xpath=//p[@id='comp-ldaaacya1label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ldaaacya1']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fceda04-b30f-49aa-8138-3b84ee639e13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rFVtlu:nth-child(1) .post-title__text:nth-child(1) > .Gf88Ln:nth-child(1)",
+      "targets": [
+        ["css=.rFVtlu:nth-child(1) .post-title__text:nth-child(1) > .Gf88Ln:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/article/div[2]/div[2]/a/div/h2/span/span", "xpath:idRelative"],
+        ["xpath=//h2/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "372f0a55-5fbc-4ae6-bf47-d6cc2d1639e2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73fc57bc-57dd-4587-ae44-057cb56457f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.YT_9QV",
+      "targets": [
+        ["css=.YT_9QV", "css:finder"],
+        ["xpath=//div[@id='comp-k00e6z1w']/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "636de6a4-a108-45b1-a99d-bc336136dc2d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.dfYrF5",
+      "targets": [
+        ["css=.dfYrF5", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='SM_ROOT_COMP1379']/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Read more')]", "xpath:innerText"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "63109005-500c-4729-a84e-ed4f44a8d5ba",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.qufiy3",
+      "targets": [
+        ["css=.qufiy3", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='SM_ROOT_COMP1379']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "b0d8c485-8c3c-46e8-8efa-135fcb074775",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.tn8OAL",
+      "targets": [
+        ["css=.tn8OAL", "css:finder"],
+        ["xpath=//div[@id='SM_ROOT_COMP1696']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Already a member?')]", "xpath:innerText"]
+      ],
+      "value": "Already a member?"
+    }, {
+      "id": "8fe2d189-3a59-4a33-a345-8a91261ca5bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#switchToEmailLink_SM_ROOT_COMP2009 > .kuTaGy",
+      "targets": [
+        ["css=#switchToEmailLink_SM_ROOT_COMP2009 > .kuTaGy", "css:finder"],
+        ["xpath=//div[@id='switchToEmailLink_SM_ROOT_COMP2009']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up with email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e282b38a-473b-4539-b757-18c119e15695",
+      "comment": "",
+      "command": "",
+      "target": "css=.kXzxyX",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2c9f876a-f60a-432e-b9f6-489c47c15b9d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["89ab995a-9e19-4eea-8bc4-beb430d1bc58"]
+  }],
+  "urls": ["https://qasvus.wixsite.com/"],
+  "plugins": []
+}
